@@ -13,6 +13,16 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        primary: {
+          std: '#e53935', // Red-600
+          hover: '#c62828', // Darker shade for hover effect
+        },
+        secondary: {
+          std: '#000000', // Black
+          hover: '#333333', // Brighter black for hover effect
+        },
+      },
     },
   },
   plugins: [],
