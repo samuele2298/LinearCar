@@ -24,9 +24,6 @@ const Home: React.FC = () => {
             .catch(error => console.error('Error fetching cars:', error));
     }, []);
 
-    const handleSlideChange = (index: number) => {
-        console.log('Slide changed to index:', index);
-    };
 
 
 
@@ -186,7 +183,7 @@ const Home: React.FC = () => {
                         </div>
 
                         <p className="mt-4 text-gray-700">
-                            Ho recentemente acquistato una Honda Civic del 2018 da questo sito e non potrei essere più soddisfatto della mia decisione. L'auto era in condizioni eccellenti, proprio come descritto nell'annuncio. Il servizio clienti è stato impeccabile e mi hanno aiutato in ogni fase del processo. Consigliatissimo!
+                            Ho recentemente acquistato una Honda Civic del 2018 da questo sito e non potrei essere più soddisfatto della mia decisione. L&apos;auto era in condizioni eccellenti, proprio come descritto nell&apos;annuncio. Il servizio clienti è stato impeccabile e mi hanno aiutato in ogni fase del processo. Consigliatissimo!
                         </p>
                     </blockquote>
 
@@ -257,7 +254,7 @@ const Home: React.FC = () => {
                         </div>
 
                         <p className="mt-4 text-gray-700">
-                            Comprare un'auto online può essere scoraggiante, ma questo sito ha reso il processo così semplice e senza problemi. Ho comprato una Toyota Camry del 2016 ed è perfetta. Le descrizioni dettagliate e le foto erano molto accurate. Comprerei sicuramente di nuovo da qui!
+                            Comprare un&apos;auto online può essere scoraggiante, ma questo sito ha reso il processo così semplice e senza problemi. Ho comprato una Toyota Camry del 2016 ed è perfetta. Le descrizioni dettagliate e le foto erano molto accurate. Comprerei sicuramente di nuovo da qui!
                         </p>
                     </blockquote>
 
@@ -328,7 +325,7 @@ const Home: React.FC = () => {
                         </div>
 
                         <p className="mt-4 text-gray-700">
-                            Ero un po' scettica sull'acquisto di un'auto usata online, ma questo sito ha superato le mie aspettative. Ho trovato un'ottima offerta per una Ford Escape del 2017. L'auto era in ottime condizioni e perfetta per le mie esigenze. Il personale è stato cordiale e molto disponibile. Esperienza fantastica!
+                            Ero un po&apos; scettica sull&apos;acquisto di un&apos;auto usata online, ma questo sito ha superato le mie aspettative. Ho trovato un&apos;ottima offerta per una Ford Escape del 2017. L&apos;auto era in ottime condizioni e perfetta per le mie esigenze. Il personale è stato cordiale e molto disponibile. Esperienza fantastica!
                         </p>
                     </blockquote>
                 </div>
@@ -344,7 +341,6 @@ const Home: React.FC = () => {
                         <Carousel
                             showArrows={true}
                             selectedItem={0}
-                            onChange={handleSlideChange}
                             showThumbs={false}
                             showIndicators={false}
                         >

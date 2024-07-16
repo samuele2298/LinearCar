@@ -15,7 +15,7 @@ const Privacy = () => {
                 <h2>Dati personali raccolti per le seguenti finalità ed utilizzando i seguenti servizi:</h2>
 
                 <div >
-                    <h3>Contattare l’utente</h3>
+                    <h3>Contattare l&aposutente</h3>
                     <p>Contatto via telefono</p>
                     <p>Dati personali: numero di telefono</p>
                 </div>
@@ -32,8 +32,8 @@ const Privacy = () => {
 
                 <div >
                     <h3>Interazione con social network e piattaforme esterne</h3>
-                    <p>Pulsante + 1 e widget sociali di Google +, pulsante "Mi piace" e widget sociali di Facebook, pulsante "Tweet" e widget sociali di Twitter, pulsante e widget sociali di Linkedin e pulsante “Pin it” e widget sociali di Pinterest.</p>
-                    <p>Dati personali: cookie e dati di utilizzo (leggi l’informativa estesa sui cookie).</p>
+                    <p>Pulsante + 1 e widget sociali di Google +, pulsante Mi piace e widget sociali di Facebook, pulsante Tweet e widget sociali di Twitter, pulsante e widget sociali di Linkedin e pulsante “Pin it” e widget sociali di Pinterest.</p>
+                    <p>Dati personali: cookie e dati di utilizzo (leggi l&aposinformativa estesa sui cookie).</p>
                 </div>
 
                 <div >
