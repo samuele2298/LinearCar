@@ -4,7 +4,6 @@ import Header from "@/components/Header";
 const Privacy = () => {
     return (
         <>
-            <Header />
 
             <div>
                 <h1>Privacy & Cookie Policy</h1>
@@ -80,8 +79,9 @@ const Privacy = () => {
 
                 <p><a href="#">Visualizza la privacy policy completa</a></p>
             </div>
-
             <Footer />
+
+
         </>
     );
 };

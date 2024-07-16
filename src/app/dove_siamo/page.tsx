@@ -9,10 +9,10 @@ import React from 'react';
 const Dove_siamo: React.FC = () => {
     return (
         <>
-            <Header />
             <Azienda />
             <Map />
             <Footer />
+
         </>
     );
 };

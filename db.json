@@ -1,0 +1,49 @@
+    {
+        "cars": [
+            {
+                "id": 1,
+                "name": "CHEVROLET - Aveo 1.2 benzina/gpl - ok neopatentati",
+                "images": [
+                    "1.webp",
+                    "2.webp",
+                    "3.webp"
+                ],
+                "cambio": "Manuale",
+                "immatricolazione": "9/2010",
+                "carrozzeria": 2,
+                "carburante": "Diesel",
+                "motore": "GPL  1229cc  86cV",
+                "colore": "Bianco",
+                "garanzia": "12 mesi",
+                "prezzo": 5900,
+                "classeEmissioni": "Euro 5",
+                "posti": 5,
+                "porte": 5,
+                "km": 141000,
+                "consumo": "---",
+                "descrizioneCompleta": "-Linea Car automobili di mirandola (MO)\n- tel. 3459830651\n- propone:\n\n- chevrolet aveo\n- 1.2 benzina/gpl\n- anno 09/2012\n- 141000 circa\n- impianto gpl originale della casa revisionato sino 09/2032\n\n- ottime condizioni di utilizzo, controllata e testata presso nostra officina.\n- garanzia 12 mesi\n\n- x info tel. 3459830651\n\n- si valutano permute con autovetture usate.\n\n- N.B. La dotazione tecnica e gli accessori indicati nella presente scheda potrebbero non coincidere con l effettivo equipaggiamento del veicolo, a causa della non uniformita dei dati pubblicati dai diversi portali. Ci scusiamo per l inconvenienza. Linea Car declina ogni responsabilità per eventuali involontarie incongruenze ed errori , che non rappresentano in alcun modo un impegno contrattuale."
+            },
+            {
+                "id": 2,
+                "name": "MERCEDES - Classe C 220 sw diesel - euro5",
+                "images": [
+                    "1.webp",
+                    "2.webp"
+                ],
+                "cambio": "Manuale",
+                "immatricolazione": "9/2010",
+                "carrozzeria": 1,
+                "carburante": "Gpl",
+                "motore": "Diesel  2143cc  170cV",
+                "colore": "Blu",
+                "garanzia": "12 mesi",
+                "prezzo": 8400,
+                "classeEmissioni": "Euro 5",
+                "posti": 5,
+                "porte": 5,
+                "km": 106800,
+                "consumo": "7.0 l/100km",
+                "descrizioneCompleta": "- Linea Car automobili di Mirandola (MO)\n- Tel. 3459830651\n- Propone:\n\n- Unico proprietario\n\n- Mercedes C 220 Diesel SW\n- Km 106800\n- Anno 09/2010\n- Euro 5\n- Veicolo in ottime condizioni di utilizzo e perfettamente funzionante.\n\n- Garanzia 12 mesi\n\n- X info Tel. 3459830651\n\n- Si valutano permute con autovetture usate.\n\n- N.B. La dotazione tecnica e gli accessori indicati nella presente scheda potrebbero non coincidere con l'effettivo equipaggiamento del veicolo, a causa della non uniformità dei dati pubblicati dai diversi portali. Ci scusiamo per l'inconvenienza. Linea Car declina ogni responsabilità per eventuali involontarie incongruenze ed errori, che non rappresentano in alcun modo un impegno contrattuale."
+            }
+        ]
+    }

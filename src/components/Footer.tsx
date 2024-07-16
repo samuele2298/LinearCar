@@ -125,7 +125,11 @@ const Footer = () => {
                 </div>
 
                 <p className="mt-12 text-center text-sm text-gray-500 lg:text-right">
-                    Copyright &copy; 2022. All rights reserved.
+                    <Link
+                        href="/privacy">
+
+                        Copyright &copy; 2022. All rights reserved.
+                    </Link>
                 </p>
             </div>
         </footer>
