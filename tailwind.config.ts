@@ -15,7 +15,10 @@ const config: Config = {
       },
       colors: {
         primary: {
-          std: '#e53935', // Red-600
+          std: '#D50000', // Red-600
+          rose: '#C2185B', // Red-600
+
+          t: '#e53935', // Red-600
           hover: '#c62828', // Darker shade for hover effect
         },
         secondary: {

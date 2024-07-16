@@ -32,49 +32,57 @@ const Home: React.FC = () => {
 
     return (
         <>
-            {/* banner */}
 
+            {/* not */}
             <div className="bg-primary-std px-4 py-3 text-white">
                 <p className="text-center text-sm font-medium">
                     Nuova Opel Corsa in offerta!
-                    <a href="/parco_veicoli" className="inline-block underline"> Vai a vederla!</a>
+                    <a href="/parco_veicoli/1" className="inline-block underline"> Vai a vederla!</a>
                 </p>
             </div>
 
 
-            {cars.length > 0 && (
-                <>
 
-                    <div className="mt-8 mb-8 mr-4 ml-4   relative">
-                        <Carousel
-                            showArrows={true}
-                            selectedItem={0}
-                            onChange={handleSlideChange}
-                            showThumbs={false}
-                            showIndicators={false}
-                        >
-                            {cars.map((car) => (
-                                <div key={car.id} className="relative rounded-lg shadow-lg overflow-hidden">
-                                    <img
-                                        src={`cars/${car.id}/${car.images[0]}`}
-                                        alt={`Car Image ${car.id}`}
-                                        className="w-full h-auto rounded-lg object-cover"
-                                        style={{ maxHeight: '600px' }} // Example size adjustment
-                                    />
-                                    <div className="absolute bottom-0 left-0 right-0 p-2 bg-black bg-opacity-70 text-white">
-                                        <h3 className="text-sm font-bold">{car.name}</h3>
-                                        <p className="text-sm font-bold">Prezzo: {car.prezzo} €</p>
-                                        <p className="text-sm font-semibold">KM: {car.km} km</p>
-                                    </div>
-                                </div>
-                            ))}
-                        </Carousel>
+            {/* banner */}
+            <section className="relative bg-[url(/bg/3.jpg)] bg-cover bg-center bg-no-repeat">
+                <div className="absolute inset-0 bg-black bg-opacity-50" > </div>
+
+                {/*  <div
+                    className="absolute inset-0 bg-white/75 sm:bg-transparent sm:from-white/95 sm:to-white/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"
+                ></div> */}
+
+                <div
+                    className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
+                >
+                    <div className="max-w-xl text-left ltr:sm:text-left rtl:sm:text-right">
+                        <h1 className="text-6xl font-extrabold sm:text-7xl text-white ">
+                            Linea Car
+
+                            <strong className="block font-extrabold text-primary-std"> Auto Usate. </strong>
+
+                        </h1>
+
+
+
+                        <div className="mt-8 flex flex-wrap gap-4 text-center">
+                            <a
+                                href="/parco_veicoli"
+                                className="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-primary-std shadow hover:bg-primary-hover focus:outline-none sm:w-auto"
+                            >
+                                Inzia
+                            </a>
+
+                            <a
+                                href="/dove_siamo"
+                                className="block w-full rounded bg-primary-std px-12 py-3 text-sm font-medium text-white shadow hover:text-secondary-hover focus:outline-none focus:ring  sm:w-auto"
+                            >
+                                Vieni a trovarci
+                            </a>
+                        </div>
                     </div>
+                </div>
+            </section>
 
-
-
-                </>
-            )}
 
             {/* Stats */}
             <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 md:py-16 lg:px-8">
@@ -102,37 +110,6 @@ const Home: React.FC = () => {
                 </dl>
 
             </div>
-
-
-            {/* get started */}
-            <section className="overflow-hidden bg-white sm:grid sm:grid-cols-2">
-                <div className="p-8 md:p-12 lg:px-16 lg:py-24">
-                    <div className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
-                        <h2 className="text-2xl font-bold text-gray-900 md:text-3xl">
-                            Venienici a trovare a Mirandola!                        </h2>
-
-                        <p className="hidden text-gray-500 md:mt-4 md:block">
-                            Scopri il nostro parco veicoli.
-                        </p>
-
-                        <div className="mt-4 md:mt-8">
-                            <Link href="/parco_veicoli"
-                                className="inline-block rounded bg-primary-std px-12 py-3 text-sm font-medium text-white transition hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-yellow-400"
-                            >
-                                Inizia a cercare
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-
-                <img
-                    alt=""
-                    src="bg/2.jpg"
-                    className="h-56 w-full object-cover sm:h-full"
-                />
-            </section>
-
-
 
 
             {/* Testimonials */}
@@ -356,6 +333,47 @@ const Home: React.FC = () => {
                     </blockquote>
                 </div>
             </div>
+
+
+
+            {/*  Ultimi arrivi */}
+            {cars.length > 0 && (
+                <>
+                    <h3 className="text-3xl ml-8 font-bold">Ultimi arrivi</h3>
+                    <div className="mt-8 mb-8 mr-4 ml-4   relative">
+                        <Carousel
+                            showArrows={true}
+                            selectedItem={0}
+                            onChange={handleSlideChange}
+                            showThumbs={false}
+                            showIndicators={false}
+                        >
+                            {cars.map((car) => (
+                                <Link key={car.id} href={`/parco_veicoli/${car.id}`}>
+
+                                    <div className="relative rounded-lg shadow-lg overflow-hidden">
+                                        <img
+                                            src={`cars/${car.id}/${car.images[0]}`}
+                                            alt={`Car Image ${car.id}`}
+                                            className="w-full h-auto rounded-lg object-cover"
+                                            style={{ maxHeight: '600px' }} // Example size adjustment
+                                        />
+                                        <div className="absolute bottom-0 left-0 right-0 p-2 bg-black bg-opacity-70 text-white">
+                                            <h3 className="text-sm font-bold">{car.name}</h3>
+                                            <p className="text-sm font-bold">Prezzo: {car.prezzo} €</p>
+                                            <p className="text-sm font-semibold">KM: {car.km} km</p>
+                                        </div>
+                                    </div>
+                                </Link >
+
+                            ))}
+                        </Carousel>
+                    </div>
+
+
+
+                </>
+            )}
 
 
             <Footer />
