@@ -18,7 +18,7 @@ const Header = () => {
                     <div className="md:flex md:items-center md:gap-12">
                         <a className="block text-primary-600" href="#">
                             <span className="sr-only">Home</span>
-                            <img src="/logo.jpg" alt="Logo" className="h-16" />
+                            <img src="/logo.png" alt="Logo" className="h-24" />
                         </a>
                     </div>
 

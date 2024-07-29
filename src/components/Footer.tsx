@@ -36,17 +36,17 @@ const Footer = () => {
                         <div className="md:flex md:items-center md:gap-12">
                             <Link className="block text-primary-std" href="/">
                                 <span className="sr-only">Home</span>
-                                <img src="/logo.jpg" alt="Logo" className="h-32" />
+                                <img src="/logo.png" alt="Logo" className="h-44" />
                             </Link>
                         </div>
 
                         <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500 lg:text-left">
-                            Via Silvano Manicardi n.18 Mirandola (Modena)
+                            Via Piero Angela n.4 Milano
 
                         </p>
 
                         <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500 lg:text-left">
-                            P.Iva 03927330369
+                            P.Iva 0543534536
 
                         </p>
 

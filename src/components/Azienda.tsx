@@ -13,15 +13,15 @@ const Azienda = () => {
                         </div>
 
                         <div className="lg:py-24">
-                            <h2 className="text-3xl font-bold sm:text-4xl">Linea Car, Mirandola</h2>
+                            <h2 className="text-3xl font-bold sm:text-4xl">Linea Car, Milano</h2>
 
                             <p className="mt-4 text-gray-600">
-                                Linea Car automobili is located in Mirandola, a renowned city in Modena, Italy.
+                                Linea Car automobili is located in Milano.
 
                             </p>
 
                             <p className="mt-4 text-gray-600">
-                                Via Silvano Manicardi n.18 Mirandola (Modena)
+                                Via Piero Angela n.12 Milano
 
                             </p>
 
